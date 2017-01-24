@@ -18,7 +18,7 @@ public class HelloWildFlyController {
     @ResponseBody
     public  GreetingsResponse greetings() {
     	GreetingsResponse greetingsResponse=new GreetingsResponse();
-    	greetingsResponse.setGreetings("Hello, world!");
+    	greetingsResponse.setGreetings("Hello, ben!");
         return greetingsResponse;
     }
 }
